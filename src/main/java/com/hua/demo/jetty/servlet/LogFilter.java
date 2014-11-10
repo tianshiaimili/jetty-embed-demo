@@ -1,4 +1,4 @@
-package com.chenlb.demo.jetty.servlet;
+package com.hua.demo.jetty.servlet;
 
 import java.io.IOException;
 
@@ -16,7 +16,6 @@ import org.slf4j.LoggerFactory;
 /**
  * 记日志
  *
- * @author chenlb 2012-5-17
  */
 public class LogFilter implements Filter {
 

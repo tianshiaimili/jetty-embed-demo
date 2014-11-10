@@ -64,7 +64,8 @@
 			<artifactId>jetty-maven-plugin</artifactId>
 			<configuration>
 				<webApp>
-					<contextPath>/embed</contextPath>
+				    <!-- 设置这里则在搜索框就需要输入/后面的字符菜可以访问了 -->
+					<contextPath>/</contextPath>
 				</webApp>
 				<stopKey>webx</stopKey>
 				<stopPort>9999</stopPort>

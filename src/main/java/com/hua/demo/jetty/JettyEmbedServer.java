@@ -1,4 +1,4 @@
-package com.chenlb.demo.jetty;
+package com.hua.demo.jetty;
 
 import java.io.File;
 import java.net.URL;
@@ -25,7 +25,6 @@ import org.springframework.context.support.FileSystemXmlApplicationContext;
 /**
  * 内 嵌 jetty http 服务
  *
- * @author chenlb(chenlb2008@gmail.com) 2012-5-17
  */
 public class JettyEmbedServer {
 
